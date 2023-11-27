@@ -1,5 +1,8 @@
-const nomeHeroi = "MestredoPythinho"
+//Informações sobre o Herói
+const nomeHeroi = "MestreDoPythinho"
 let pontosDeExp = 12000
+
+//Níveis de rank
 let rankHeroi = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 
 if (pontosDeExp < 1000){
