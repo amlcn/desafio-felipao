@@ -5,7 +5,7 @@ let pontosDeExp = 12000
 //Níveis de rank
 let rankHeroi = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 
-if (pontosDeExp < 1000){
+if (pontosDeExp > 1 && pontosDeExp <= 1000){
     console.log("O Herói de nome " + nomeHeroi + " está no nível de " + rankHeroi[0])
 }
     else if (pontosDeExp >= 1001 && pontosDeExp <= 2000){
@@ -28,4 +28,7 @@ if (pontosDeExp < 1000){
 }
     else if (pontosDeExp > 10000){
     console.log("O Herói de nome " + nomeHeroi + " está no nível de " + rankHeroi[7])
+}
+    else if (pontosDeExp = -1){
+    console.log("Indefinido")
 }
